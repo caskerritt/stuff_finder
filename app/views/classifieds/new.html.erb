@@ -1,0 +1,13 @@
+<h1>Add a classified</h1>
+
+	<%= form_for @classified do |f| %>
+		<%= f.label :category%>
+		<%= f.text_field :category_id%>
+		<%= f.label :title%>
+		<%= f.text_field :title%>
+		<%= f.label :description%>
+		<%= f.text_field :description%>
+		<%= f.label :url%>
+		<%= f.url_field :url%>
+		<%= f.submit %>
+	<%end%>
